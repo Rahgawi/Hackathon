@@ -11,12 +11,12 @@ main section {
     display: flex;
 }
 
-main section.sec1 {
-    flex-direction: column;
-}
-
 main section article {
     text-align: center;
+}
+
+main section.sec1 {
+    flex-direction: column;
 }
 
 main section.sec1 article.art1 {
