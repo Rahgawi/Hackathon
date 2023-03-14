@@ -17,12 +17,50 @@ main section article {
 
 main section.sec1 {
     flex-direction: column;
+    gap: 2vh;
 }
 
 main section.sec1 article.art1 {
-    background-color: yellow;
+    background: url("img/sec1_img1.jpg") bottom no-repeat;
 }
 
 main section.sec1 article.art2 {
-    background-color: orange;
+    background: url("img/sec1_img2.jpg") bottom no-repeat;
+}
+
+main section.sec1 article.art3 {
+    background: url("img/sec1_img3.jpg") bottom no-repeat;
+}
+
+main section.sec1 article {
+    height: 580px;
+}
+
+main article {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 5vh;
+}
+
+main article h2 {
+    font-size: 3.5em;
+}
+
+main article h3 {
+    font-size: 1.75em;
+}
+
+main article p {
+    color: #6e6e73;
+    font-size: 1.5em;
+}
+
+main article a {
+    color: #06c;
+    font-size: 1.25em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+main .art2, .art3 {
+    color: white;
 }
